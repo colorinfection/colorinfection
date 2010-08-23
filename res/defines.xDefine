@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Define version="1.0">
+
+   <Parameter name="sprite_file_path" value="./sprites" />
+
+   <ItemList name="tutorial_texts">
+      <Parameter name="basic" value="0" />
+      <Parameter name="basic_b" value="1" />
+      <Parameter name="one_pairs" value="2" />
+      <Parameter name="one_pairs_b" value="3" />
+      <Parameter name="two_pairs" value="4" />
+   </ItemList>
+
+   <Function name="modify_actor_property">
+      <PropertyDef name="actor" value-type="entity_ref" default-value="" control_type="select_list">
+         <Parameter name="item_list" value="@" />
+      </PropertyDef>
+      <PropertyDef name="property" value-type="string" default-value="" />
+      <PropertyDef name="new_value" value-type="string" default-value="" />
+   </Function>
+
+   
+   <PropetyDefBlcok name="body_common_properties">
+      <PropertyDef name="Is Static" value-type="boolean" default-value="true" />
+      <PropertyDef name="Is Bullet" value-type="boolean" default-value="true" />
+      <PropertyDef name="Allow Sleep" value-type="boolean" default-value="true" />
+      <PropertyDef name="Is Sleeping" value-type="boolean" default-value="false" />
+      <PropertyDef name="Linear Damping" value-type="number" default-value="0.0" />
+      <PropertyDef name="Angular Damping" value-type="number" default-value="0.0" />
+      <PropertyDef name="Shape Density" value-type="number" default-value="1.0" />      
+      <PropertyDef name="Shape Friction" value-type="number" default-value="0.2" />      
+      <PropertyDef name="Shape Restitution" value-type="number" default-value="0.2" />      
+      <PropertyDef name="Shape Group Index" value-type="number" default-value="0.0" />      
+      <PropertyDef name="Param0" value-type="number" default-value="0" />
+      <PropertyDef name="Param1" value-type="number" default-value="0" />
+      <PropertyDef name="Actor Link" value-type="entity_ref" default-value="" control_type="select_list">
+         <Parameter name="entity_list" value="@/Actors/$_children" />
+      </PropertyDef>
+      <PropertyDef name="Is Infected" value-type="boolean" default-value="false" />
+      <PropertyDef name="Is Infectedable" value-type="boolean" default-value="false" />
+      <PropertyDef name="Dont Infect Me" value-type="boolean" default-value="false" />
+      <PropertyDef name="Is Breakable" value-type="boolean" default-value="false" />
+      <PropertyDef name="Is Visible" value-type="boolean" default-value="true" />
+   </PropetyDefBlcok>
+   
+
+   <PropetyDefBlcok name="joint_common_properties">
+      <PropertyDef name="Param0" value-type="number" default-value="0" />
+      <PropertyDef name="Param1" value-type="number" default-value="0" />
+      <PropertyDef name="Body 1" value-type="entity_ref" default-value="" control_type="select_list">
+         <Parameter name="entity_list" value="@/Actors/$_children" />
+      </PropertyDef>
+      <PropertyDef name="Body 2" value-type="entity_ref" default-value="" control_type="select_list">
+         <Parameter name="entity_list" value="@/Actors/$_children" />
+      </PropertyDef>
+      <PropertyDef name="Is Visible" value-type="boolean" default-value="false" />
+   </PropetyDefBlcok>
+   
+   
+   
+   <ActorTemplate name="level_config" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="shape" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="10" />
+         </AppearanceDef>
+         <AppearanceDef name="shape" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA0ff00ff" />
+            <Parameter name="left" value="-30" />
+            <Parameter name="top" value="-5" />
+            <Parameter name="right" value="30" />
+            <Parameter name="bottom" value="5" />
+         </AppearanceDef>
+         <AppearanceDef name="shape" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA0ff00ff" />
+            <Parameter name="left" value="-5" />
+            <Parameter name="top" value="-30" />
+            <Parameter name="right" value="5" />
+            <Parameter name="bottom" value="30" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Level Config Properties">
+            <PropertyDef name="Level Name" value-type="string" default-value="pSport" />
+            <PropertyDef name="Level Score" value-type="number" default-value="1000" />
+            <PropertyDef name="Hard Index" value-type="number" default-value="3" />
+            <PropertyDef name="Break By Order" value-type="boolean" default-value="true" />
+            <PropertyDef name="Default Bullet" value-type="boolean" default-value="true" />
+            <PropertyDef name="World Scale" value-type="number" default-value="0.1" />
+            <PropertyDef name="Gravity" value-type="number" default-value="20" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+   
+   
+   
+   <ActorTemplate name="square" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="shape" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="-100" />
+            <Parameter name="top" value="-30" />
+            <Parameter name="right" value="100" />
+            <Parameter name="bottom" value="30" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Body Properties">
+             <PropertyDefBlockImport block-name="body_common_properties" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+   <ActorTemplate name="circle" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="shape" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="30" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Body Properties">
+            <PropertyDefBlockImport block-name="body_common_properties">
+               <PropertyDefaultValueModify name="Is Static" value="false" />
+               <PropertyDefaultValueModify name="Is Infectedable" value="true" />
+            </PropertyDefBlockImport>
+			<PropertyDef name="Is Column" value-type="boolean" default-value="false" />
+			<PropertyDef name="Show Border" value-type="boolean" default-value="false" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+
+
+
+   <ActorTemplate name="compound_a" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="square 1" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="-100" />
+            <Parameter name="top" value="-30" />
+            <Parameter name="right" value="100" />
+            <Parameter name="bottom" value="30" />
+         </AppearanceDef>
+         <AppearanceDef name="square 2" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 3" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 4" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 5" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 6" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 1" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="20" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 2" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="0" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Body Properties">
+             <PropertyDefBlockImport block-name="body_common_properties" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+
+   <ActorTemplate name="compound_b" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="square 1" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="-100" />
+            <Parameter name="top" value="-30" />
+            <Parameter name="right" value="100" />
+            <Parameter name="bottom" value="30" />
+         </AppearanceDef>
+         <AppearanceDef name="square 2" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 3" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 1" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="20" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 2" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 3" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 4" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="circle 5" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="radius" value="0" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Body Properties">
+             <PropertyDefBlockImport block-name="body_common_properties" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+   
+   
+   
+
+
+   <ActorTemplate name="compound_c" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="square 1" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="-100" />
+            <Parameter name="top" value="-30" />
+            <Parameter name="right" value="100" />
+            <Parameter name="bottom" value="30" />
+         </AppearanceDef>
+         <AppearanceDef name="square 2" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 3" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 4" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 5" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 6" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 7" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 8" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 9" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 10" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 11" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+         <AppearanceDef name="square 12" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA00000ff" />
+            <Parameter name="left" value="0" />
+            <Parameter name="top" value="0" />
+            <Parameter name="right" value="0" />
+            <Parameter name="bottom" value="0" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Body Properties">
+             <PropertyDefBlockImport block-name="body_common_properties" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+   
+   
+
+   <ActorTemplate name="distance_joint" type="general" z-order="80">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="segment" type="line2d">
+            <Parameter name="color"    value="0xff00ff" />
+            <Parameter name="point1_x" value="-50" />
+            <Parameter name="point1_y" value="0" />
+            <Parameter name="point2_x" value="50" />
+            <Parameter name="point2_y" value="0" />
+            <Parameter name="thickness" value="3" />
+            <Parameter name="start_color" value="0xA0ff0000" />
+            <Parameter name="end_color" value="0xd000ff00" />
+            <Parameter name="start_radius" value="3" />
+            <Parameter name="end_radius" value="3" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>      
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Joint Properties">
+             <PropertyDefBlockImport block-name="joint_common_properties" />
+			 <PropertyDef name="Show Points" value-type="boolean" default-value="true" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+   <ActorTemplate name="revolute_joint" type="general" z-order="80">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="anchor" type="circle">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xd0ffff00" />
+            <Parameter name="radius" value="5" />
+            <Parameter name="center_x" value="0" />
+            <Parameter name="center_y" value="0" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Joint Properties">
+            <PropertyDefBlockImport block-name="joint_common_properties" />
+            
+            <PropertyDef name="Enable Limit" value-type="boolean" default-value="false" />
+            <PropertyDef name="Lower Angle" value-type="number" default-value="0.0" />
+            <PropertyDef name="Upper Angle" value-type="number" default-value="0.0" />
+            <PropertyDef name="Enable Motor" value-type="boolean" default-value="false" />
+            <PropertyDef name="Motor Speed" value-type="number" default-value="0.0" />
+            <PropertyDef name="Max Motor Torque" value-type="number" default-value="10.0" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+
+   <ActorTemplate name="prismatic_joint" type="general" z-order="70">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="axis" type="line2d">
+            <Parameter name="color"    value="0x008000" />
+            <Parameter name="point1_x" value="0" />
+            <Parameter name="point1_y" value="0" />
+            <Parameter name="point2_x" value="50" />
+            <Parameter name="point2_y" value="0" />
+            <Parameter name="thickness" value="3" />
+            <Parameter name="start_color" value="0xA0ffff00" />
+            <Parameter name="start_radius" value="5" />
+            <Parameter name="end_radius" value="0" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Joint Properties">
+            <PropertyDefBlockImport block-name="joint_common_properties" />
+            
+            <PropertyDef name="Enable Limit" value-type="boolean" default-value="false" />
+            <PropertyDef name="Lower Translation" value-type="number" default-value="0.0" />
+            <PropertyDef name="Upper Translation" value-type="number" default-value="0.0" />
+            <PropertyDef name="Enable Motor" value-type="boolean" default-value="false" />
+            <PropertyDef name="Motor Speed" value-type="number" default-value="0.0" />
+            <PropertyDef name="Max Motor Force" value-type="number" default-value="10.0" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+
+
+   <ActorTemplate name="pulley_joint" type="general" z-order="80">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="beam" type="box2d">
+            <Parameter name="border_color" value="0x000000" />
+            <Parameter name="filled_color" value="0xA0ffff00" />
+            <Parameter name="left" value="-50" />
+            <Parameter name="top" value="-3" />
+            <Parameter name="right" value="50" />
+            <Parameter name="bottom" value="3" />
+         </AppearanceDef>
+         <AppearanceDef name="segment 1" type="line2d">
+            <Parameter name="color"    value="0xffff00" />
+            <Parameter name="point1_x" value="-50" />
+            <Parameter name="point1_y" value="0" />
+            <Parameter name="point2_x" value="-50" />
+            <Parameter name="point2_y" value="50" />
+            <Parameter name="thickness" value="2" />
+            <Parameter name="start_color" value="0xA0ff0000" />
+            <Parameter name="end_color" value="0xA0ff0000" />
+            <Parameter name="start_radius" value="3" />
+            <Parameter name="end_radius" value="3" />
+         </AppearanceDef>
+         <AppearanceDef name="segment 2" type="line2d">
+            <Parameter name="color"    value="0xffff00" />
+            <Parameter name="point1_x" value="50" />
+            <Parameter name="point1_y" value="0" />
+            <Parameter name="point2_x" value="50" />
+            <Parameter name="point2_y" value="50" />
+            <Parameter name="thickness" value="2" />
+            <Parameter name="start_color" value="0xd000ff00" />
+            <Parameter name="end_color" value="0xd000ff00" />
+            <Parameter name="start_radius" value="3" />
+            <Parameter name="end_radius" value="3" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Joint Properties">
+            <PropertyDefBlockImport block-name="joint_common_properties" />
+            
+            <PropertyDef name="Max Length 1" value-type="number" default-value="0.0" />
+            <PropertyDef name="Max Length 2" value-type="number" default-value="0.0" />
+            <PropertyDef name="Ratio" value-type="number" default-value="1.0" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+   <ActorTemplate name="chain_joint" type="general" z-order="80">
+       <TemplatePropertyDefines>
+       </TemplatePropertyDefines>
+       
+      <InstanceAppearanceDefines>
+         <AppearanceDef name="shape" type="line2d">
+            <Parameter name="color"    value="0x000000" />
+            <Parameter name="point1_x" value="-50" />
+            <Parameter name="point1_y" value="0" />
+            <Parameter name="point2_x" value="50" />
+            <Parameter name="point2_y" value="0" />
+            <Parameter name="thickness" value="2" />
+            <Parameter name="start_color" value="0xA0ff0000" />
+            <Parameter name="end_color" value="0xd000ff00" />
+            <Parameter name="start_radius" value="3" />
+            <Parameter name="end_radius" value="3" />
+         </AppearanceDef>
+      </InstanceAppearanceDefines>
+      
+      <InstancePropertyDefines>
+         <PropertyGroup name="Joint Properties">
+             <PropertyDefBlockImport block-name="joint_common_properties" />
+         </PropertyGroup>
+         <PropertyGroup name="Chain Properties">
+             <PropertyDef name="length_ratio" value-type="number" default-value="1.0" />
+             <PropertyDef name="segment_size" value-type="number" default-value="6" />
+         </PropertyGroup>
+      </InstancePropertyDefines>
+   </ActorTemplate>
+
+
+
+
+   
+</Define>
+   

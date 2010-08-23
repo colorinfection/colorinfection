@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><Sprite2d version="1.0">
+   <ModuleImageSet name="Module Images">
+      <ModuleImage image_url="misc.png" name="Image"/>
+   </ModuleImageSet>
+   <PureModuleGroupSet name="Pure Module Groups">
+      <PureModuleGroup image_ref="Image" name="Pure Modules">
+         <PureModule h="7" name="Module" w="6" x="0" y="0"/>
+         <PureModule h="6" name="Module_1" w="7" x="7" y="1"/>
+         <PureModule h="16" name="Module_2" w="20" x="18" y="2"/>
+         <PureModule h="11" name="Module_3" w="12" x="41" y="5"/>
+         <PureModule h="9" name="Module_4" w="10" x="55" y="6"/>
+         <PureModule h="16" name="Module_5" w="8" x="70" y="2"/>
+         <PureModule h="10" name="Module_6" w="6" x="79" y="5"/>
+         <PureModule h="16" name="Module_7" w="12" x="1" y="18"/>
+         <PureModule h="12" name="Module_8" w="16" x="21" y="21"/>
+         <PureModule h="11" name="Module_9" w="6" x="79" y="18"/>
+         <PureModule h="14" name="Module_10" w="7" x="45" y="21"/>
+      </PureModuleGroup>
+   </PureModuleGroupSet>
+   <CompositedModuleGroupSet name="Composited Module Groups">
+      <CompositedModuleGroup name="Composited Modules">
+         <CompositedModule name="Composited">
+            <ModulePart flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_5" name="Part" offset_x="0" offset_y="0" palette="0"/>
+            <ModulePart flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_6" name="Part_1" offset_x="9" offset_y="3" palette="0"/>
+         </CompositedModule>
+         <CompositedModule name="Composited_1">
+            <ModulePart flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_5" name="Part" offset_x="0" offset_y="0" palette="0"/>
+            <ModulePart flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_9" name="Part_1" offset_x="8" offset_y="3" palette="0"/>
+         </CompositedModule>
+      </CompositedModuleGroup>
+   </CompositedModuleGroupSet>
+   <AnimatedModuleGroupSet name="Animated Module Groups">
+      <AnimatedModuleGroup name="doors">
+         <AnimatedModule name="door_0">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module" name="Frame" offset_x="-3" offset_y="0" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="door_0_b">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module" name="Frame" offset_x="-3" offset_y="-7" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="door_1">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_1" name="Frame" offset_x="0" offset_y="-3" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="door_1_b">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_1" name="Frame" offset_x="-7" offset_y="-3" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="sound_on">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Composited Module Groups/Composited Modules/Composited" name="Frame" offset_x="0" offset_y="0" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="sound_off">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_5" name="Frame" offset_x="0" offset_y="0" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="child_found">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_4" name="Frame" offset_x="-4" offset_y="-10" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_4" name="Frame_2" offset_x="-4" offset_y="-13" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_3" name="Frame_1" offset_x="-5" offset_y="-16" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_3" name="Frame_3" offset_x="-5" offset_y="-20" palette="0"/>
+            <ModuleSequence duration="2" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_2" name="Frame_5" offset_x="-8" offset_y="-24" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_3" name="Frame_4" offset_x="-5" offset_y="-20" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_3" name="Frame_6" offset_x="-5" offset_y="-16" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_4" name="Frame_7" offset_x="-4" offset_y="-13" palette="0"/>
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_4" name="Frame_8" offset_x="-4" offset_y="-10" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="finished">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_10" name="Frame" offset_x="0" offset_y="0" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="locked">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_7" name="Frame" offset_x="0" offset_y="0" palette="0"/>
+         </AnimatedModule>
+      </AnimatedModuleGroup>
+   </AnimatedModuleGroupSet>
+   <PredeinedModelSet name="Predefined Models"/>
+   <TilePaletteSet name="Tile Palettes"/>
+   <Tiled2dBackgroundSet name="Tiled Backgrounds"/>
+</Sprite2d>

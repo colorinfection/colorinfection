@@ -1,0 +1,3396 @@
+<?xml version="1.0" encoding="UTF-8"?><Level version="1.0">
+   <Properties>
+      <PropertyGroup name="Entity">
+         <Property name="Name" value="level_puzzle_05"/>
+      </PropertyGroup>
+      <PropertyGroup name="Level Properties">
+         <Property name="Define File" value="defines.xDefine"/>
+         <Property name="Playfield Width" value="600.0"/>
+         <Property name="Playfield Height" value="600.0"/>
+      </PropertyGroup>
+   </Properties>
+   <Actors>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="270.0"/>
+               <Property name="Pos Y" value="0.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-281.0"/>
+                     <Property name="Right" value="346.0"/>
+                     <Property name="Top" value="-11.0"/>
+                     <Property name="Bottom" value="29.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_1"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="-1.0"/>
+               <Property name="Pos Y" value="269.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-9.0"/>
+                     <Property name="Right" value="30.0"/>
+                     <Property name="Top" value="-273.0"/>
+                     <Property name="Bottom" value="348.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_2"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="600.0"/>
+               <Property name="Pos Y" value="285.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-32.0"/>
+                     <Property name="Right" value="15.0"/>
+                     <Property name="Top" value="-294.0"/>
+                     <Property name="Bottom" value="326.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_3"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="304.0"/>
+               <Property name="Pos Y" value="596.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-309.0"/>
+                     <Property name="Right" value="308.0"/>
+                     <Property name="Top" value="-35.0"/>
+                     <Property name="Bottom" value="18.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="136.0"/>
+               <Property name="Pos Y" value="283.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-47.0"/>
+                     <Property name="Right" value="38.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-47.0"/>
+                     <Property name="Right" value="-32.0"/>
+                     <Property name="Top" value="-48.0"/>
+                     <Property name="Bottom" value="5.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="18.0"/>
+                     <Property name="Right" value="34.0"/>
+                     <Property name="Top" value="-51.0"/>
+                     <Property name="Bottom" value="7.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="pulley_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="pulley_joint"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="200.0"/>
+               <Property name="Pos Y" value="72.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value="compound_a"/>
+               <Property name="Body 2" value="compound_a_3"/>
+               <Property name="Max Length 1" value="0.0"/>
+               <Property name="Max Length 2" value="0.0"/>
+               <Property name="Ratio" value="1.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="beam"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-74.0"/>
+                     <Property name="Right" value="90.0"/>
+                     <Property name="Top" value="-3.0"/>
+                     <Property name="Bottom" value="3.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="segment 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Line2d Properties">
+                     <Property name="Point1 X" value="-73.0"/>
+                     <Property name="Point1 Y" value="-1.0"/>
+                     <Property name="Point2 X" value="-72.0"/>
+                     <Property name="Point2 Y" value="150.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="segment 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Line2d Properties">
+                     <Property name="Point1 X" value="89.0"/>
+                     <Property name="Point1 Y" value="0.0"/>
+                     <Property name="Point2 X" value="86.0"/>
+                     <Property name="Point2 Y" value="149.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a_3"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="286.0"/>
+               <Property name="Pos Y" value="286.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-47.0"/>
+                     <Property name="Right" value="38.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-47.0"/>
+                     <Property name="Right" value="-32.0"/>
+                     <Property name="Top" value="-48.0"/>
+                     <Property name="Bottom" value="5.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="18.0"/>
+                     <Property name="Right" value="34.0"/>
+                     <Property name="Top" value="-51.0"/>
+                     <Property name="Bottom" value="7.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a_4"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="456.0"/>
+               <Property name="Pos Y" value="164.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="true"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-2.0"/>
+                     <Property name="Right" value="73.0"/>
+                     <Property name="Top" value="-2.0"/>
+                     <Property name="Bottom" value="3.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="-1.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="526.0"/>
+               <Property name="Pos Y" value="164.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="12.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="454.0"/>
+               <Property name="Pos Y" value="164.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="compound_a_4"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="180.0"/>
+               <Property name="Max Motor Torque" value="100000.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_4"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="527.0"/>
+               <Property name="Pos Y" value="165.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value="compound_a_4"/>
+               <Property name="Body 2" value="circle"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="false"/>
+               <Property name="Motor Speed" value="0.0"/>
+               <Property name="Max Motor Torque" value="10.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="prismatic_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="prismatic_joint"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="127.0"/>
+               <Property name="Pos Y" value="344.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="compound_a"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Translation" value="0.0"/>
+               <Property name="Upper Translation" value="0.0"/>
+               <Property name="Enable Motor" value="false"/>
+               <Property name="Motor Speed" value="0.0"/>
+               <Property name="Max Motor Force" value="10.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="axis"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Line2d Properties">
+                     <Property name="Point1 X" value="-1.0"/>
+                     <Property name="Point1 Y" value="-1.0"/>
+                     <Property name="Point2 X" value="-1.0"/>
+                     <Property name="Point2 Y" value="-340.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="prismatic_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="prismatic_joint_4"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="288.0"/>
+               <Property name="Pos Y" value="353.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="compound_a_3"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Translation" value="0.0"/>
+               <Property name="Upper Translation" value="0.0"/>
+               <Property name="Enable Motor" value="false"/>
+               <Property name="Motor Speed" value="0.0"/>
+               <Property name="Max Motor Force" value="10.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="axis"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Line2d Properties">
+                     <Property name="Point1 X" value="1.0"/>
+                     <Property name="Point1 Y" value="-2.0"/>
+                     <Property name="Point2 X" value="1.0"/>
+                     <Property name="Point2 Y" value="-336.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a_6"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="456.0"/>
+               <Property name="Pos Y" value="272.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="true"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-2.0"/>
+                     <Property name="Right" value="73.0"/>
+                     <Property name="Top" value="-2.0"/>
+                     <Property name="Bottom" value="3.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="-1.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_7"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="454.0"/>
+               <Property name="Pos Y" value="272.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="compound_a_6"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="180.0"/>
+               <Property name="Max Motor Torque" value="100000.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_8"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="527.0"/>
+               <Property name="Pos Y" value="273.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value="compound_a_6"/>
+               <Property name="Body 2" value="circle_8"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="false"/>
+               <Property name="Motor Speed" value="0.0"/>
+               <Property name="Max Motor Torque" value="10.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_8"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="527.0"/>
+               <Property name="Pos Y" value="272.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="12.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_8"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="277.0"/>
+               <Property name="Pos Y" value="505.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-93.0"/>
+                     <Property name="Right" value="114.0"/>
+                     <Property name="Top" value="-9.0"/>
+                     <Property name="Bottom" value="15.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_9"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="125.0"/>
+               <Property name="Pos Y" value="440.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="20.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-83.0"/>
+                     <Property name="Right" value="69.0"/>
+                     <Property name="Top" value="-9.0"/>
+                     <Property name="Bottom" value="9.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_10"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="192.0"/>
+               <Property name="Pos Y" value="495.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="5.0"/>
+                     <Property name="Top" value="-6.0"/>
+                     <Property name="Bottom" value="5.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_11"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="386.0"/>
+               <Property name="Pos Y" value="496.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="5.0"/>
+                     <Property name="Top" value="-6.0"/>
+                     <Property name="Bottom" value="5.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_12"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="200.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_13"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="232.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_14"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="264.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_15"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="296.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_16"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="328.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_17"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="360.0"/>
+               <Property name="Pos Y" value="492.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_18"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="289.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_19"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="257.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_20"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="321.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_21"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="225.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_22"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="353.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_23"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="314.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_24"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="250.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_25"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="346.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_26"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="282.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_27"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="218.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_28"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="275.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_29"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="307.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_30"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="339.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_31"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="211.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_32"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="243.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_33"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="206.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_34"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="334.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_35"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="302.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_36"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="270.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_37"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="238.0"/>
+               <Property name="Pos Y" value="493.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_38"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="366.0"/>
+               <Property name="Pos Y" value="492.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="circle">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="circle_39"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="373.0"/>
+               <Property name="Pos Y" value="492.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.0"/>
+               <Property name="Shape Restitution" value="0.0"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="true"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="3.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a_39"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="166.0"/>
+               <Property name="Pos Y" value="386.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-33.0"/>
+                     <Property name="Right" value="33.0"/>
+                     <Property name="Top" value="-11.0"/>
+                     <Property name="Bottom" value="11.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="11.0"/>
+                     <Property name="Center X" value="-34.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="11.0"/>
+                     <Property name="Center X" value="31.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_40"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="286.0"/>
+               <Property name="Pos Y" value="403.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-11.0"/>
+                     <Property name="Right" value="12.0"/>
+                     <Property name="Top" value="-13.0"/>
+                     <Property name="Bottom" value="11.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="compound_a">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="compound_a_40"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="284.0"/>
+               <Property name="Pos Y" value="421.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="true"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="true"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-13.0"/>
+                     <Property name="Right" value="18.0"/>
+                     <Property name="Top" value="-6.0"/>
+                     <Property name="Bottom" value="6.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 3"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 4"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 5"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="square 6"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="0.0"/>
+                     <Property name="Right" value="0.0"/>
+                     <Property name="Top" value="0.0"/>
+                     <Property name="Bottom" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 1"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="circle 2"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="0.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_41"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="407.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="8.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_41"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="407.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="square_41"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="120.0"/>
+               <Property name="Max Motor Torque" value="100000.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_42"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="434.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="8.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_42"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="434.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="square_42"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="100.0"/>
+               <Property name="Max Motor Torque" value="1000000.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_43"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="464.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="8.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_43"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="491.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="square_44"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="110.0"/>
+               <Property name="Max Motor Torque" value="1000000.0"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="square">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="square_44"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="491.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="70.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Body Properties">
+               <Property name="Is Static" value="false"/>
+               <Property name="Is Bullet" value="true"/>
+               <Property name="Allow Sleep" value="true"/>
+               <Property name="Is Sleeping" value="false"/>
+               <Property name="Linear Damping" value="0.0"/>
+               <Property name="Angular Damping" value="0.0"/>
+               <Property name="Shape Density" value="1.0"/>
+               <Property name="Shape Friction" value="0.2"/>
+               <Property name="Shape Restitution" value="0.2"/>
+               <Property name="Shape Group Index" value="0.0"/>
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Actor Link" value=""/>
+               <Property name="Is Infected" value="false"/>
+               <Property name="Is Infectedable" value="false"/>
+               <Property name="Is Breakable" value="false"/>
+               <Property name="Is Visible" value="true"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="shape"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Box Properties">
+                     <Property name="Left" value="-8.0"/>
+                     <Property name="Right" value="8.0"/>
+                     <Property name="Top" value="-8.0"/>
+                     <Property name="Bottom" value="8.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+      <Actor template="revolute_joint">
+         <Properties>
+            <PropertyGroup name="Entity">
+               <Property name="Name" value="revolute_joint_44"/>
+            </PropertyGroup>
+            <PropertyGroup name="Actor Properties">
+               <Property name="Pos X" value="464.0"/>
+               <Property name="Pos Y" value="504.0"/>
+               <Property name="Z Order" value="80.0"/>
+               <Property name="Scale X" value="1.0"/>
+               <Property name="Scale Y" value="1.0"/>
+               <Property name="Angle" value="0.0"/>
+            </PropertyGroup>
+            <PropertyGroup name="Joint Properties">
+               <Property name="Param0" value="0.0"/>
+               <Property name="Param1" value="0.0"/>
+               <Property name="Body 1" value=""/>
+               <Property name="Body 2" value="square_43"/>
+               <Property name="Enable Limit" value="false"/>
+               <Property name="Lower Angle" value="0.0"/>
+               <Property name="Upper Angle" value="0.0"/>
+               <Property name="Enable Motor" value="true"/>
+               <Property name="Motor Speed" value="60.0"/>
+               <Property name="Max Motor Torque" value="1.0E7"/>
+            </PropertyGroup>
+         </Properties>
+         <Appearances>
+            <Appearance>
+               <Properties>
+                  <PropertyGroup name="Entity">
+                     <Property name="Name" value="anchor"/>
+                  </PropertyGroup>
+                  <PropertyGroup name="Circle Properties">
+                     <Property name="Radius" value="5.0"/>
+                     <Property name="Center X" value="0.0"/>
+                     <Property name="Center Y" value="0.0"/>
+                  </PropertyGroup>
+               </Properties>
+            </Appearance>
+         </Appearances>
+      </Actor>
+   </Actors>
+</Level>

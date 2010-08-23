@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><Sprite2d version="1.0">
+   <ModuleImageSet name="Module Images">
+      <ModuleImage image_url="PhyShapes.png" name="Image"/>
+   </ModuleImageSet>
+   <PureModuleGroupSet name="Pure Module Groups">
+      <PureModuleGroup image_ref="Image" name="Pure Modules">
+         <PureModule h="60" name="Module" w="60" x="0" y="0"/>
+         <PureModule h="60" name="Module_1" w="60" x="60" y="0"/>
+         <PureModule h="60" name="Module_2" w="60" x="0" y="60"/>
+         <PureModule h="60" name="Module_3" w="60" x="59" y="60"/>
+         <PureModule h="60" name="Module_4" w="60" x="0" y="120"/>
+         <PureModule h="60" name="Module_5" w="60" x="60" y="120"/>
+         <PureModule h="60" name="Module_6" w="60" x="120" y="120"/>
+         <PureModule h="60" name="Module_7" w="60" x="0" y="180"/>
+         <PureModule h="60" name="Module_8" w="60" x="60" y="180"/>
+         <PureModule h="60" name="Module_9" w="60" x="120" y="180"/>
+      </PureModuleGroup>
+   </PureModuleGroupSet>
+   <CompositedModuleGroupSet name="Composited Module Groups"/>
+   <AnimatedModuleGroupSet name="Animated Module Groups">
+      <AnimatedModuleGroup name="shapes">
+         <AnimatedModule name="wood_round_1">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="wood_round_2">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_2" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="stone_round_1">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_1" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="stong_round_2">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_3" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="wood_square_1">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_4" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="wood_square_2">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_5" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="wood_square_3">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_6" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="stone_square_1">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_7" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="stone_sqaure_2">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_8" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+         <AnimatedModule name="stone_square_3">
+            <ModuleSequence duration="1" flags="0" flip_x="false" flip_y="false" module_ref="Pure Module Groups/Pure Modules/Module_9" name="Frame" offset_x="-30" offset_y="-30" palette="0"/>
+         </AnimatedModule>
+      </AnimatedModuleGroup>
+   </AnimatedModuleGroupSet>
+   <PredeinedModelSet name="Predefined Models"/>
+   <TilePaletteSet name="Tile Palettes"/>
+   <Tiled2dBackgroundSet name="Tiled Backgrounds"/>
+</Sprite2d>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Level version="1.0">
+   <Properties>
+      <PropertyGroup name="Entity">
+         <Property name="Name" value="unnamed"/>
+      </PropertyGroup>
+      <PropertyGroup name="Level Properties">
+         <Property name="Define File" value=""/>
+         <Property name="Playfield Width" value="200.0"/>
+         <Property name="Playfield Height" value="200.0"/>
+      </PropertyGroup>
+   </Properties>
+   <Actors/>
+</Level>

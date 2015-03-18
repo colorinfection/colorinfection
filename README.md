@@ -1,6 +1,6 @@
 This is the project files for pDecathlon, Color Infection and Color Infection 2.
  * The physics engine: <a href="http://box2dflash.sourceforge.net/">as3 porting</a> of <a href="http://www.box2d.org/">Box2d physics engine</a> v2.0.2. 
- * All levels are made with GameSuit2D (https://github.com/TapirLiu/fbox2d).
+ * All levels are made with GameSuit2D (https://github.com/TapirLiu/gamesuit2d).
  * Used tools and needed SDKs: 
   * Apache Ant (http://ant.apache.org/), 
   * Java SDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html) 
